@@ -21,7 +21,10 @@ categories:
     
 * 如果你的repo里面某一个文件夹是另一个repo（别人已经发布的），那么该文件夹会以灰色的形式显示，无法打开，此时怎么办？
     
-    `在本地仓库目录下，删除.git以及.gitignore（显示灰色的文件夹目录下面），再输入“git remote -r --cached some-directory”,之后再重新提交。`
+    `在本地仓库目录下，删除.git以及.gitignore（显示灰色的文件夹目录下面），再输入下面的命令,之后再重新提交。注意some-directory是你自己要清的文件夹`
+    ```bash
+    git rm -r --cached some-directory
+    ```
 
 ## 悟
 

@@ -8,3 +8,4 @@ Save my blogs for some unexpecting reasons.
 * npm install、
 * npm install hexo-deployer-git、
 * npm install hexo-generator-search --save (local search in next theme.)
+* npm install hexo-generator-feed --save (RSS)
